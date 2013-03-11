@@ -1,0 +1,6 @@
+<layers>
+  <layer
+      name="crmp.theme"
+      interface="crmp.theme.browser.interfaces.ICrmpThemeLayer"
+      />
+</layers>

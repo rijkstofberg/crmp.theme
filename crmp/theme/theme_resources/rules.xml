@@ -1,0 +1,16 @@
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <!-- Base rules - common to all themes -->
+    <xi:include href="rules_base.xml" />
+
+    <!-- Default theme -->
+    <rules css:if-content=".theme-default">
+        <theme href="default/index.html" />
+        <xi:include href="default/rules.xml" />
+    </rules>
+
+</rules>

@@ -1,0 +1,9 @@
+crmp/theme/docs/_build/*
+crmp/theme/theme_resources/less/plone/*.css
+crmp/theme/theme_resources/less/theme/*.css
+*.egg-info
+*.pyc
+*.pyo
+*~
+.DS_Store
+dist
