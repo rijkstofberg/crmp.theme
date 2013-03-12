@@ -347,16 +347,6 @@ window is wide enough, so we have included the desktop-body-max-width variable
 in base.less where you can set the desired width of the page.
 
 
-Having multiple looks for the portlets
---------------------------------------
-We are using hexagonit.portletstyle plugin for this, and it is already included
-as a dependency.
-To specify the portlet styles and their css idendifiers, edit
-profiles/default/registry.xml. This way on each install these styles will be
-available. These values show up in the control panel so you can modify them on
-the fly, just remember to update the registry.xml once done experimenting.
-
-
 Using custom logo
 -----------------
 If the logo is not coming from Plone, here is the way to put it into the theme:

@@ -1,29 +1,6 @@
 <?xml version="1.0"?>
 <object name="portal_javascripts">
 
-    <!-- Modernizr - include only if Diazo not enabled -->
-    <javascript
-        cacheable="True"
-        compression="safe"
-        conditionalcomment=""
-        cookable="True"
-        enabled="True"
-        expression="not:request/HTTP_X_THEME_ENABLED | nothing"
-        inline="False"
-        id="++theme++crmp.theme/javascript/libs/modernizr.custom.js"
-    />
-
-    <javascript
-        cacheable="True"
-        compression="safe"
-        conditionalcomment=""
-        cookable="True"
-        enabled="True"
-        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
-        inline="False"
-        id="++theme++crmp.theme/default/javascript/script.js"
-    />
-
     <!-- Disable TinyMCE -->
     <javascript
         cacheable="True"
@@ -34,16 +11,6 @@
         expression=""
         inline="False"
         id="tiny_mce.js"
-    />
-    <javascript
-        cacheable="True"
-        compression="none"
-        conditionalcomment=""
-        cookable="True"
-        enabled="False"
-        expression=""
-        inline="False"
-        id="tiny_mce_init.js"
     />
 
     <!-- Disable Form tabbing -->
@@ -57,18 +24,16 @@
         inline="False"
         id="form_tabbing.js"
     />
-    <!-- Form accordion -->
+
     <javascript
-        authenticated="True"
         cacheable="True"
         compression="safe"
         conditionalcomment=""
         cookable="True"
         enabled="True"
-        expression=""
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
         inline="False"
-        id="++resource++hexagonit.primacontrol.js/form_accordion.js"
-        insert-before="++resource++plone.app.jquerytools.js"
+        id="++theme++crmp.theme/js/bootstrap.js"
     />
 
     <javascript
@@ -76,48 +41,131 @@
         compression="safe"
         conditionalcomment=""
         cookable="True"
-        enabled="False"
-        expression=""
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
         inline="False"
-        id="++resource++hexagonit.primacontrol.js/jquery.richmenu.js"
+        id="++theme++crmp.theme/js/d3-setup.js"
     />
 
     <javascript
-        authenticated="True"
         cacheable="True"
         compression="safe"
         conditionalcomment=""
         cookable="True"
         enabled="True"
-        expression=""
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
         inline="False"
-        id="++resource++hexagonit.primacontrol.js/descriptiontooltip.js"
-        insert-before="++resource++plone.app.jquerytools.js"
+        id="++theme++crmp.theme/js/d3barchart.js"
     />
 
     <javascript
-        authenticated="True"
         cacheable="True"
         compression="safe"
         conditionalcomment=""
         cookable="True"
         enabled="True"
-        expression=""
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
         inline="False"
-        id="++resource++hexagonit.primacontrol.js/portletoverlay.js"
+        id="++theme++crmp.theme/js/flot-chart-setup.js"
     />
 
     <javascript
-        authenticated="True"
         cacheable="True"
         compression="safe"
         conditionalcomment=""
         cookable="True"
         enabled="True"
-        expression=""
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
         inline="False"
-        id="++resource++hexagonit.primacontrol.js/content_type.js"
-        insert-before="++resource++plone.app.jquerytools.js"
+        id="++theme++crmp.theme/js/fullcalendar.min.js"
+    />
+
+    <javascript
+        cacheable="True"
+        compression="safe"
+        conditionalcomment=""
+        cookable="True"
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
+        inline="False"
+        id="++theme++crmp.theme/js/gcal.js"
+    />
+
+    <javascript
+        cacheable="True"
+        compression="safe"
+        conditionalcomment=""
+        cookable="True"
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
+        inline="False"
+        id="++theme++crmp.theme/js/jquery.flot.js"
+    />
+
+    <javascript
+        cacheable="True"
+        compression="safe"
+        conditionalcomment=""
+        cookable="True"
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
+        inline="False"
+        id="++theme++crmp.theme/js/jquery.knob.js"
+    />
+
+    <javascript
+        cacheable="True"
+        compression="safe"
+        conditionalcomment=""
+        cookable="True"
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
+        inline="False"
+        id="++theme++crmp.theme/js/jquery.peity.min.js"
+    />
+
+    <javascript
+        cacheable="True"
+        compression="safe"
+        conditionalcomment=""
+        cookable="True"
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
+        inline="False"
+        id="++theme++crmp.theme/js/jquery.sparkline.min.js"
+    />
+
+    <javascript
+        cacheable="True"
+        compression="safe"
+        conditionalcomment=""
+        cookable="True"
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
+        inline="False"
+        id="++theme++crmp.theme/js/jquery.tablesorter.min.js"
+    />
+
+    <javascript
+        cacheable="True"
+        compression="safe"
+        conditionalcomment=""
+        cookable="True"
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
+        inline="False"
+        id="++theme++crmp.theme/js/setup.js"
+    />
+
+    <javascript
+        cacheable="True"
+        compression="safe"
+        conditionalcomment=""
+        cookable="True"
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
+        inline="False"
+        id="++theme++crmp.theme/js/toastr.js"
     />
 
 </object>
