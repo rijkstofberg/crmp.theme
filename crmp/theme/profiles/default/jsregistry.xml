@@ -44,39 +44,6 @@
         enabled="True"
         expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
         inline="False"
-        id="++theme++crmp.theme/js/d3-setup.js"
-    />
-
-    <javascript
-        cacheable="True"
-        compression="safe"
-        conditionalcomment=""
-        cookable="True"
-        enabled="True"
-        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
-        inline="False"
-        id="++theme++crmp.theme/js/d3barchart.js"
-    />
-
-    <javascript
-        cacheable="True"
-        compression="safe"
-        conditionalcomment=""
-        cookable="True"
-        enabled="True"
-        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
-        inline="False"
-        id="++theme++crmp.theme/js/flot-chart-setup.js"
-    />
-
-    <javascript
-        cacheable="True"
-        compression="safe"
-        conditionalcomment=""
-        cookable="True"
-        enabled="True"
-        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
-        inline="False"
         id="++theme++crmp.theme/js/fullcalendar.min.js"
     />
 
@@ -89,17 +56,6 @@
         expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
         inline="False"
         id="++theme++crmp.theme/js/gcal.js"
-    />
-
-    <javascript
-        cacheable="True"
-        compression="safe"
-        conditionalcomment=""
-        cookable="True"
-        enabled="True"
-        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
-        inline="False"
-        id="++theme++crmp.theme/js/jquery.flot.js"
     />
 
     <javascript
@@ -167,5 +123,62 @@
         inline="False"
         id="++theme++crmp.theme/js/toastr.js"
     />
+
+    <javascript
+        cacheable="True"
+        compression="safe"
+        conditionalcomment=""
+        cookable="True"
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
+        inline="False"
+        id="++theme++crmp.theme/js/d3.v3.min.js"
+    />
+
+    <javascript
+        cacheable="True"
+        compression="safe"
+        conditionalcomment=""
+        cookable="True"
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
+        inline="False"
+        id="++theme++crmp.theme/js/d3-setup.js"
+    />
+
+    <javascript
+        cacheable="True"
+        compression="safe"
+        conditionalcomment=""
+        cookable="True"
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
+        inline="False"
+        id="++theme++crmp.theme/js/d3barchart.js"
+    />
+    
+    <!-- We are not using this at the moment.
+    <javascript
+        cacheable="True"
+        compression="safe"
+        conditionalcomment=""
+        cookable="True"
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
+        inline="False"
+        id="++theme++crmp.theme/js/jquery.flot.js"
+    />
+
+    <javascript
+        cacheable="True"
+        compression="safe"
+        conditionalcomment=""
+        cookable="True"
+        enabled="True"
+        expression="python:context.restrictedTraverse('@@active-subtheme')() == 'default'"
+        inline="False"
+        id="++theme++crmp.theme/js/flot-chart-setup.js"
+    />
+    -->
 
 </object>
